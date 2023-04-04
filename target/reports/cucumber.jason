@@ -1,0 +1,88 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-04T17:39:42.784Z",
+        "line": 12,
+        "name": "White Background Change with valid credential",
+        "description": "",
+        "id": "techfios-colour-page-functionality-validation;white-background-change-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4026000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Set SkyWhite Background button exists",
+            "match": {
+              "location": "steps.colourpage.user_Set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3105000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the button2",
+            "match": {
+              "location": "steps.colourpage.user_click_on_the_button2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "steps.colourpage.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scinerio2"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios colour page functionality validation",
+    "description": "",
+    "id": "techfios-colour-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature1/techfios.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  }
+]
